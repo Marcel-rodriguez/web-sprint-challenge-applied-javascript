@@ -1,4 +1,4 @@
-// import { resolvePlugin } from "@babel/core"
+import { resolvePlugin } from "@babel/core"
 import axios from "axios"
 
 const Card = (article) => {
@@ -58,10 +58,10 @@ const cardAppender = (selector) => {
   // Create a card from each and every article object in the response, using the Card component.
   // Append each card to the element in the DOM that matches the selector passed to the function.
   //
-  axios.get(`http://localhost:5000/api/articles`)
+  axios.get(`https://localhost:5000/api/articles`)
   .then(resp => {
     const randomEntryPoint = document.querySelector(`${selector}`)
-    console.log(resp)
+    console.log(resp.data)
   })
   .catch(error => {
     console.error(error)
