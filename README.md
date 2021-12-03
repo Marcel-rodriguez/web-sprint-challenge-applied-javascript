@@ -10,10 +10,10 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+-   [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+-   [ ] Open the assignment in Canvas and click on the "Set up git" option.
+-   [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+-   [ ] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -27,40 +27,52 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+-   [ ] Navigate to the root of the project with your command line.
+-   [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
+-   [ ] Run `npm start` to compile the project and serve it.
+-   [ ] Navigate Chrome to `http://localhost:3000`
+-   [ ] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+-   [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+-   [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+-   [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
-- Please **do not move or rename existing files** or folders.
-- If your development server stops "auto reloading", manually kill it with `CTRL+C` and restart it.
-- Do not change the `package.json` file except to install libraries with NPM (Axios is _already_ in the `package.json`).
-- In your solution, it is essential that you follow best practices and produce clean and professional results.
-- Schedule time to review, refine, and polish your work, including spell-checking and grammar-checking.
-- It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+-   Please **do not move or rename existing files** or folders.
+-   If your development server stops "auto reloading", manually kill it with `CTRL+C` and restart it.
+-   Do not change the `package.json` file except to install libraries with NPM (Axios is _already_ in the `package.json`).
+-   In your solution, it is essential that you follow best practices and produce clean and professional results.
+-   Schedule time to review, refine, and polish your work, including spell-checking and grammar-checking.
+-   It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+-   [ ] Submit via Codegrade by committing and pushing any new changes to the _main_ branch.
+-   [ ] Check Codegrade for automated feedback.
+-   [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+-   [ ] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+   The dom or (Document object model) represents how your code is read by the browser. you can manipulate the dom using javascript and also other languages
+
 2. What is an event?
+   an event is an action or "Callback" you can pass in to any event listener. for example the click event listens for a click and if you clicked that specific element you can run a specific task or function
+
 3. What is an event listener?
+
+an event listener listens for actions by the event and then allows you to run a task or a specific function
+
 4. Why would we convert a NodeList into an Array?
+
+if you don't that nodeList is not iterable
+
 5. What is a component?
+
+a component is like a factory it makes re-usable pieces of code that you can use anywhere on the website giving it the right data
