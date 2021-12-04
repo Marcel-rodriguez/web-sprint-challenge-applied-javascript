@@ -63,11 +63,10 @@ const cardAppender = (selector) => {
   //
   axios.get(`http://localhost:5000/api/articles`)
   .then(resp => {
-    const randomEntryPoint = document.querySelector(`${selector}`)
-    // console.log(resp.data.articles)
-    const arr = ['bootstrap','javascript','jquery','node','technology']
+    const randomEntryPoint = document.querySelector(selector)
+     let arr = Object.keys(resp.data.articles)
     for(let i = 0; i < arr.length; i++){
-      resp.data.articles[arr[i]].forEach(item => document.querySelector(selector).appendChild(Card(item)))
+      resp.data.articles[arr[i]].forEach(item => randomEntryPoint.appendChild(Card(item)))
     }
   })
   .catch(error => {
